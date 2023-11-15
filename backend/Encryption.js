@@ -4,7 +4,7 @@ const secretKey =  process.env.JWT_SECRET;
 
 // Function to encrypt a string
 function encrypt(inputString) {
-  const encrypted = CryptoJS.AES.encrypt(inputString, secretKey).toString();
+  const encrypted = CryptoJS.AES.encrypt(JSON.stringify(inputString), secretKey).toString();
   return encrypted;
 }
 
