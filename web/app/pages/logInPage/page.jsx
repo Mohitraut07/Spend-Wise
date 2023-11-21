@@ -1,12 +1,12 @@
 import React from "react";
-import { LogIn } from "@/app/components/LogIn/page";
-import { Navbar } from "@/app/components/Navbar/page";
+import Login from "@/app/components/Login";
+import Navbar from "@/app/components/Navbar";
 
 const logInPage = () => {
   return (
     <div>
       <Navbar />
-      <LogIn />    
+      <Login />
     </div>
   );
 };

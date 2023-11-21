@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
   
-export const HeroSection = () => {
+const HeroSection = () => {
   return (
     <div className="bg-[var(--gradient-start-color)] w-full shadow-2xl">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center p-8">
@@ -39,3 +39,5 @@ export const HeroSection = () => {
     </div>
   );
 };
+
+export default HeroSection;

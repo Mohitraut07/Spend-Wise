@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Register = () => {
+const Register = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 shadow-md rounded-md max-w-md w-full">
@@ -61,3 +61,5 @@ export const Register = () => {
     </div>
   );
 };
+
+export default Register;

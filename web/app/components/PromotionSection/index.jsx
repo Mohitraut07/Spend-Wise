@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const PromotionSection = ()=> {
+const PromotionSection = ()=> {
   return (
     <div className="bg-[var(--gradient-start-color)] w-full my-5">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center p-8">
@@ -32,3 +32,5 @@ export const PromotionSection = ()=> {
     </div>
   )
 }
+
+export default PromotionSection;

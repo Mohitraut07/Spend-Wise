@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-export const ComingSoon = () => {
+const ComingSoon = () => {
   const countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -51,3 +51,5 @@ export const ComingSoon = () => {
     </>
   );
 };
+
+export default ComingSoon;
