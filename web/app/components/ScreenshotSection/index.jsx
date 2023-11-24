@@ -1,4 +1,3 @@
-
 "use client";
 import React from "react";
 import Slider from "../Slider";
@@ -15,7 +14,7 @@ const ScreenshotSection = () => {
 
   return (
     <div className="md:relative w-screen flex flex-col h-[900px] justify-center bg-slate-100 my-16 md:bg-[url('/comingsoon-img.jpg')] bg-cover bg-center">
-      <div className="md:backdrop-blur-sm md:bg-white/30  md:hover:backdrop-blur-lg h-full transition-all ease-in">
+      <div className=" md:bg-white/30  md:backdrop-blur-lg h-full transition-all ease-in">
         <h2 className="font-bold text-2xl md:text-4xl mb-4 md:mt-10 md:text-white text-black p-5">
           Screenshots
         </h2>

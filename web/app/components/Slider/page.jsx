@@ -76,28 +76,32 @@ export default function Slider(props) {
             </div>
           </>
         )}
-        {showDotControls && (
+        {/* {showDotControls && (
           <div className="sm:absolute  -bottom-8 left-1/2 transform -translate-x-1/2">
-            {imageList.map((el, index) => (
-              <div
-                key={index}
-                className={`w-4 h-4 bg-gray-400 rounded-full inline-block mx-1 md:mx-2 ${
-                  index === active ? "bg-pink-700" : ""
-                }`}
-                data-key={index}
-                onClick={dotClickHandler}
-              />
-            ))}
+            {imageList != undefined ? (
+              imageList.map((el, index) => (
+                <div
+                  key={index}
+                  className={`w-4 h-4 bg-gray-400 rounded-full inline-block mx-1 md:mx-2 ${
+                    index === active ? "bg-pink-700" : ""
+                  }`}
+                  data-key={index}
+                  onClick={dotClickHandler}
+                />
+              ))
+            ) : (
+              <></>
+            )}
           </div>
-        )}
+        )} */}
         <div className="flex justify-center items-center h-full">
-          <Image
+          {/* <Image
             src={imageList[active].url}
             width={width}
             height={height}
             alt="image"
             className="bg-contain rounded-3xl m-1 object-cover"
-          />
+          /> */}
         </div>
       </div>
     );
